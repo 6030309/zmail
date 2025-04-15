@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "ZMAIL-24小时匿名邮箱"
+    "title": "MAIL"
   },
   "common": {
     "loading": "加载中...",
@@ -20,9 +20,9 @@
     "failed": "失败",
     "unknown": "未知",
     "empty": "暂无数据",
-    "blog": "博客",
-    "youtube": "油管频道",
-    "xugouMonitor": "xugou监控"
+    "blog": "",
+    "youtube": "",
+    "xugouMonitor": ""
   },
   "mailbox": {
     "createRandom": "创建随机邮箱",
