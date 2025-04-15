@@ -11,16 +11,16 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = 'ZMAIL-24小时匿名邮箱',
-  description = '创建临时邮箱地址，接收邮件，无需注册，保护您的隐私安全',
-  keywords = '临时邮箱,匿名邮箱,一次性邮箱,隐私保护,电子邮件,ZMAIL',
+  title = 'MAIL',
+  description = 'MAIL',
+  keywords = 'MAIL',
   ogImage = '/og-image.jpg',
   ogType = 'website',
   twitterCard = 'summary_large_image',
 }) => {
   const location = useLocation();
-  const url = `https://mail.mdzz.uk${location.pathname}`;
-  const fullTitle = `${title} | 创建临时邮箱地址，接收邮件，无需注册，保护您的隐私安全`;
+  const url = `${location.pathname}`;
+  const fullTitle = `${title} | MAIL`;
 
   useEffect(() => {
     // 更新页面标题
