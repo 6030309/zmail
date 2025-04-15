@@ -9,7 +9,7 @@ const StructuredData: React.FC = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "ZMAIL-24小时匿名邮箱",
+    "name": "MAIL",
     "applicationCategory": "UtilityApplication",
     "operatingSystem": "All",
     "offers": {
@@ -17,7 +17,7 @@ const StructuredData: React.FC = () => {
       "price": "0",
       "priceCurrency": "CNY"
     },
-    "description": "创建临时邮箱地址，接收邮件，无需注册，保护您的隐私安全",
+    "description": "MAIL",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
